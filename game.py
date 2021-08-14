@@ -39,8 +39,8 @@ if name ==1:
   os.system("pkg install git")
   os.system("pkg install php")
   os.system("git clone https://github.com/MrErroer/FCTspammer")
-  os.system("cd FCTspammer")
-  os.system("php Spammer.php")
+  os.system("figlet succes")
+
   
 elif name ==2:
   os.system("clear")
