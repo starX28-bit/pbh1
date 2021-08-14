@@ -1,7 +1,8 @@
 import os
+import random
 import time
 import sys
-import random
+
 
 blue ='\033[34;1m'
 green ='\033[32;1m'
@@ -40,13 +41,12 @@ if name ==1:
   os.system("pkg install php")
   os.system("git clone https://github.com/MrErroer/FCTspammer")
   os.system("figlet succes")
-
   
 elif name ==2:
   os.system("clear")
   os.system("pkg install php")
   os.system("pkg install git")
-  os.system("git https://github.com/anouarbensaad/vulnx")
+  os.system("git clone https://github.com/anouarbensaad/vulnx")
   os.system("cd vulnx")
   os.system("chmod +x install.sh")
   os.system("./install.sh")
@@ -60,3 +60,17 @@ elif name ==3:
   os.system("python2 admin-finder.py")
 else:
   print "your input not found"
+
+
+        
+
+
+
+
+
+
+
+
+
+  
+
