@@ -11,12 +11,18 @@ red ='\033[31;1m'
 white ='\033[37;1m'
 yellow ='\033[33;1m'
 
+def type(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.1)
+type("TOOLS INI MASIH DALAM TAHAP PENGEMBANGAN DAN MASIH BANYAK BUG YG TERDAPAT MOHON PAHAMI AUTHOR BUKAN ROBOT -starX") 
 
         
 os.system("clear")
 
 os.system("toilet -f future PBH TOOLS | lolcat")
-print "                        v1.0"
+print "                        v1.1"
 print ""
 print red,"__________________________"
 print ""
@@ -28,16 +34,29 @@ print ""
 
 print red,"LIST "
 print white,"    TOOLS"
+
 print ""
+print "____________________________"
 print red,"[1] TOOLS SPAMMER "
+print "____________________________"
 print white,"[2] TOOLS WEBSITE SCAN"
+print "____________________________"
 print red,"[3] TOOLS ADMIN FINDER"
+print "____________________________"
 print white,"[4] INSTALL SQLMAP"
+print "____________________________"
 print red,"[5] INSTALL NMAP"
+print "____________________________"
 print white,"[6] INSTALL BAHAN "
+print "____________________________"
 print red,"[7] INSTALL WEBDAV "
+print "____________________________"
 print white,"[8] INFO AUTHOR"
-print red,"[9] EXIT"
+print "____________________________"
+print red,"[9] DONASI "
+print "____________________________"
+print red,"[10] EXIT"
+print white,"____________________________"
 
 print ""
 name = input("[?]masukkan keyword: ")
@@ -106,11 +125,18 @@ elif name ==8:
   print purple,"========================"
 
 elif name ==9:
-  os.system("figlet oke ker")
+  print "silahkan hubungi : 082383688398"
+  
+elif name ==10:
+  os.system("figlet oke ker | lolcat")
   
 
 else:
   print "your input not found"
+  os.system("python2 game.py")
+
+
+
 
 
         
